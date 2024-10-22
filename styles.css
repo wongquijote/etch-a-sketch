@@ -1,0 +1,23 @@
+:root {
+    --gap-size: .25rem;
+}
+
+* {
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-size);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-size);
+}
